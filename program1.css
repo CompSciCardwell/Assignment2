@@ -1,0 +1,104 @@
+/*
+*===program1.css for Assignment 2===
+*By Ben Cardwell
+*Summer 2018
+*Extra features implemented: Background, extra bullets
+*/
+
+body
+{
+	/* Background image is static even when page scrolls*/
+	background-image: url(georgebanner.jpg);
+	background-attachment: fixed;
+}
+
+ul.navbar
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #F0F0F0;
+}
+
+ul.ing
+{
+	list-style-type: square;
+}
+
+li.navbar
+{
+	float: left;
+}
+
+li.navbar a
+{
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li.navbar a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+.active
+{
+    background-color: #A4A400;
+}
+
+h1, h2
+{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	text-align: center;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+}
+
+
+mainp1
+{
+	background-color: #F0F0F0;
+}
+
+mainp1, p2, p3, p4, p5, p6, p7, p8, p9
+{
+	color:#000000;
+	font-family: Georgia, Garamond, serif;
+}
+
+p3, p4, p6, p8
+{
+	font-weight: bold;
+}
+
+table, td
+{
+	border: 2px solid white;
+	border-spacing: 0px;
+	color: #FFFFFF;
+	font-family: font-family: Georgia, Garamond, serif;
+}
+
+th.top
+{
+	background-color:#F0F0F0;
+	color:#A4A400;
+}
+
+th
+{
+	border: 2px solid white;
+	background-color:#003366;
+	color: #FFFFFF;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+}
+
+td
+{
+	background-color:#CC9933;
+}
+
